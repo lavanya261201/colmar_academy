@@ -1,0 +1,53 @@
+
+/*Header*/
+header{
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0px 24px;
+}
+
+header div{
+  display: flex;
+  align-items: center;
+  height: 32px;
+  border: 1px solid red;
+}
+
+.nav span{
+  padding-left: 16px;
+}
+
+/*Banner*/
+
+.banner{
+  display: flex;
+  background-color: Gainsboro;
+}
+
+.bannerimg{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.bannerimg img{
+  padding: 32px 24px;
+  width: 90%;
+}
+
+.bannerheadings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bannerheadings button{
+  background-color: DimGray;
+  color: white;
+  padding: 8px 0 8px 0;
+}
