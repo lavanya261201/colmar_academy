@@ -1,22 +1,26 @@
+html{
+  font-size: 16px;
+}
+
 /*Header*/
 header{
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
-  padding: 0px 24px;
+  height: 4rem;
+  padding: 0rem 1.5rem;
 }
 
 header div{
   display: flex;
   align-items: center;
-  height: 32px;
+  height: 2rem;
   border: 1px solid red;
 }
 
 .nav span{
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 /*Banner*/
@@ -35,7 +39,7 @@ header div{
 }
 
 .bannerimg img{
-  padding: 32px 24px;
+  padding: 2rem 1.5rem;
   width: 90%;
 }
 
@@ -48,7 +52,7 @@ header div{
 .bannerheadings button{
   background-color: DimGray;
   color: white;
-  padding: 8px 0 8px 0;
+  padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 /*Info Banner*/
@@ -67,33 +71,59 @@ header div{
   display: flex;
   justify-content: center;
   border: 1px solid red;
+  padding: 2rem 1.5rem 2rem 0;
 }
 
 .practicebannerimg img{
-  padding: 32px 24px;
   width: 90%;
   height: 80%;
 }
 
 .practicingcaptions{
-  padding: 32px 24px;
+  padding: 2rem 1.5rem;
 }
 
 .practicingcaptions p{
-  padding-top: 24px;
+  padding-top: 1.5rem;
+}
+
+.practicingcaptions p:last-child{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .practicingcaptions span{
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
-
 .information{
-  padding: 32px 0 32px 0;
+  padding: 1rem 0rem 1rem 0rem;
   width: 40%;
+  border: 1px solid red;
 }
 
 .info{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 1rem 1rem;
+  border-bottom: 1px solid rgb(245, 245, 245);
+  width: 100%;
+}
+
+.detailimg{
+  width: 35%;
+}
+
+.detailimg img{
+  width: 100%;
+  height: auto;
+}
+
+.details{
+  width: 65%;
+  padding-left: 2rem;
+}
+
+.details div:nth-child(1n+1){
+  padding-top: 0.5rem;
 }
