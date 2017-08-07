@@ -129,6 +129,12 @@ header div{
 }
 
 /*Start Learning Banner*/
+.learningslogan{
+  text-align: center;
+  padding: 2rem 0rem;
+  border: 1px solid red;
+}
+
 .startlearning{
   background-color: Gainsboro;
 }
@@ -144,6 +150,7 @@ header div{
   width: 30%;
   border: 1px solid red;
   background-color: white;
+  margin: 1rem;
 }
 
 .course div:first-child img{
