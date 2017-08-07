@@ -1,4 +1,3 @@
-
 /*Header*/
 header{
   border: 1px solid red;
@@ -50,4 +49,51 @@ header div{
   background-color: DimGray;
   color: white;
   padding: 8px 0 8px 0;
+}
+
+/*Info Banner*/
+
+.infobanner{
+ display: flex;
+}
+
+.practicebanner{
+  flex-direction: column;
+  width: 60%;
+  border: 1px solid red;
+}
+
+.practicebannerimg{
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.practicebannerimg img{
+  padding: 32px 24px;
+  width: 90%;
+  height: 80%;
+}
+
+.practicingcaptions{
+  padding: 32px 24px;
+}
+
+.practicingcaptions p{
+  padding-top: 24px;
+}
+
+.practicingcaptions span{
+  padding-top: 32px;
+}
+
+
+.information{
+  padding: 32px 0 32px 0;
+  width: 40%;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
 }
