@@ -13,7 +13,7 @@ html{
 
 body{
   font-family: 'Roboto', sans-serif;
-  color: rgb(59, 62, 66);
+  color: rgb(78, 82, 87);
 }
 
 h1{
@@ -22,9 +22,23 @@ h1{
   font-size: 3rem;
 }
 
+h2{
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+h3{
+  line-height: 1.5rem;
+  letter-spacing: 0.021rem;
+  font-size: 1.2rem;
+}
+
+h4{
+  color: CornflowerBlue;
+}
+
 /*Header*/
 header{
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,11 +50,19 @@ header div{
   display: flex;
   align-items: center;
   height: 2rem;
-  border: 1px solid red;
+}
+
+.name span:first-child{
+  font-weight: 700;
+}
+
+.name span:last-child{
+  font-weight: 300 ;
 }
 
 .nav span{
   padding-left: 1rem;
+  font-weight: 400;
 }
 
 /*Banner*/
@@ -55,7 +77,6 @@ header div{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .bannerimg img{
@@ -64,20 +85,30 @@ header div{
 }
 
 .bannerheadings{
+  width: 30%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  padding-left: 18rem;
-  padding-right: 5rem;
+  /*padding: 2rem;*/
 }
 
 .bannerheadings div:nth-child(1n+1){
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.8rem;
 }
 
-.bannerheadings button{
-  background-color: rgb(59, 62, 66);
+.bannerheadings div:nth-child(0n+2){
+  font-weight: 500;
+  font-size: 1.5rem ;
+}
+
+button{
+  background-color: rgb(78, 82, 87);
   color: white;
   padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+button h3{
+  font-size: 1.2rem;
 }
 
 /*Info Banner*/
@@ -89,13 +120,11 @@ header div{
 .practicebanner{
   flex-direction: column;
   width: 60%;
-  border: 1px solid red;
 }
 
 .practicebannerimg{
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   padding: 2rem 1.5rem 2rem 0;
 }
 
@@ -106,6 +135,8 @@ header div{
 
 .practicingcaptions{
   padding: 2rem 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.021rem;
 }
 
 .practicingcaptions p{
@@ -124,7 +155,6 @@ header div{
 .information{
   padding: 1rem 0rem 1rem 0rem;
   width: 40%;
-  border: 1px solid red;
 }
 
 .info{
@@ -132,7 +162,6 @@ header div{
   align-items: center;
   padding: 1rem 0 1rem 1rem;
   border-bottom: 1px solid rgb(245, 245, 245);
-  /*width: 100%;*/
 }
 
 .detailimg{
@@ -150,14 +179,13 @@ header div{
 }
 
 .details div:nth-child(1n+1){
-  padding-top: 0.5rem;
+  padding-top: 0.6rem;
 }
 
 /*Start Learning Banner*/
 .learningslogan{
   text-align: center;
   padding: 2rem 0rem;
-  border: 1px solid red;
 }
 
 .startlearning{
@@ -173,7 +201,6 @@ header div{
 
 .course{
   width: 30%;
-  border: 1px solid red;
   background-color: white;
   margin: 1rem;
 }
@@ -200,14 +227,12 @@ header div{
 .thesisheading{
   text-align: center;
   padding: 2rem 0rem;
-  border: 1px solid red;
 }
 
 .urban{
   display: flex;
   flex-direction: column;
   width: 60%;
-  border: 1px solid red;
 }
 
 video{
@@ -216,10 +241,6 @@ video{
 
 .urban div:last-child{
   padding-left: 1.5rem;
-}
-
-.urban div:last-child p{
-  padding: 0.5rem 0rem 2rem 0rem;
 }
 
 .mainurban{
@@ -234,25 +255,15 @@ video{
   display: flex;
   align-items: center;
   padding: 1rem 0rem 1rem 1rem;
-  /*width: 100%;*/
 }
 
 .thefirstdetail{
   background-color: Gainsboro;
 }
 
-.urbanimg{
-  width: 35%;
-}
-
 .urbanimg img{
   width: 100%;
   height: auto;
-}
-
-.urbancaption{
-  width: 65%;
-  padding-left: 1rem;
 }
 
 .urbancaption div:first-child{
@@ -261,10 +272,11 @@ video{
 
 /*Footer*/
 footer{
+  background-color: Gainsboro;
   display: flex;
   justify-content: space-between;
   border: 1px solid rgb(245, 245, 245);
-  padding: 1rem 1.5rem 0rem 1.5rem;
+  padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 footer div:last-child span{
