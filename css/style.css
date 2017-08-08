@@ -49,6 +49,10 @@ header div{
   justify-content: center;
 }
 
+.bannerheadings div:nth-child(1n+1){
+  padding-bottom: 0.5rem;
+}
+
 .bannerheadings button{
   background-color: DimGray;
   color: white;
@@ -212,6 +216,10 @@ video{
   width: 100%;
 }
 
+.urbandetails div:first-child{
+  background-color: Gainsboro;
+}
+
 .urbanimg{
   width: 35%;
 }
@@ -224,4 +232,20 @@ video{
 .urbancaption{
   width: 65%;
   padding-left: 1rem;
+}
+
+.urbancaption div:first-child{
+  padding-bottom: 0.5rem;
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(245, 245, 245);
+  padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+footer div:last-child span{
+  padding-left: 0.5rem;
 }
