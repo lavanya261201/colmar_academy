@@ -168,6 +168,10 @@ button h3{
     padding: 2rem 1rem;
   }
 
+  button{
+    width: 90%;
+  }
+
 }
 
 /*Info Banner*/
@@ -243,6 +247,30 @@ button h3{
 
 .details div:nth-child(1n+1){
   padding-top: 0.6rem;
+}
+
+@media only screen and (max-width:550px){
+
+  .practicebanner{
+    display: none;
+  }
+
+  .info{
+    display: block;
+    width: 100%;
+  }
+
+  .detailimg{
+    width: 100%;
+  }
+
+  .detailimg img{
+    width: 90%;
+    height: auto;
+  }
+
+
+
 }
 
 /*Start Learning Banner*/
