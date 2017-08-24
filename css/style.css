@@ -341,6 +341,10 @@ button h3{
     display: none;
   }
 
+  .mobilecourses{
+    display: block;
+  }
+
   .mobilecourses div{
     margin-bottom: 0.5rem;
     margin-left: 1rem;
@@ -412,6 +416,14 @@ video{
     display: none;
   }
 
+  .urban{
+    width: 100%;
+  }
+
+  video{
+    width: 100%;
+    padding: 0rem;
+  }
 }
 
 /*Footer*/
@@ -427,4 +439,14 @@ footer div:last-child span{
   padding-left: 0.5rem;
 }
 
-/*Mobile Media Query*/
+@media only screen and (max-width:550px){
+
+  .terms{
+    display: none;
+  }
+
+  footer{
+    justify-content: center;
+  }
+
+}
