@@ -327,6 +327,10 @@ button h3{
   padding-top: 0.5rem;
 }
 
+.mobilecourses{
+  display: none;
+}
+
 @media only screen and (max-width:550px){
 
   .startlearning{
@@ -338,9 +342,12 @@ button h3{
   }
 
   .mobilecourses div{
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     background-color: Gainsboro;
     padding: 1rem 1rem 0.5rem 1rem;
-  }
+}
 
   .mobilecourses div h3{
     padding: 1rem 1rem 1.5rem 1rem;
@@ -393,6 +400,18 @@ video{
 
 .urbancaption div:first-child{
   padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width:550px){
+
+  .practicingcaptions{
+    display: none;
+  }
+
+  #mobileurbandetails{
+    display: none;
+  }
+
 }
 
 /*Footer*/
