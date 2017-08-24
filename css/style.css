@@ -255,22 +255,32 @@ button h3{
     display: none;
   }
 
+  .information{
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+  }
+
   .info{
     display: block;
     width: 100%;
+    padding: 0rem;
   }
 
   .detailimg{
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .detailimg img{
+    padding: 1rem 1rem;
     width: 90%;
     height: auto;
   }
 
-
-
+  .detailimgmobile{
+    padding: 3rem 0rem 0rem 0rem;
+  }
 }
 
 /*Start Learning Banner*/
@@ -315,6 +325,26 @@ button h3{
 
 .coursedetails div:nth-child(1n+2){
   padding-top: 0.5rem;
+}
+
+@media only screen and (max-width:550px){
+
+  .startlearning{
+    background-color: white;
+  }
+
+  .courses{
+    display: none;
+  }
+
+  .mobilecourses div{
+    background-color: Gainsboro;
+    padding: 1rem 1rem 0.5rem 1rem;
+  }
+
+  .mobilecourses div h3{
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
 }
 
 /*Thesis Exhibit*/
