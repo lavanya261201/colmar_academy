@@ -86,17 +86,18 @@ header div{
 
 @media only screen and (max-width:550px){
   .mobile{
-    display: visible;
     visibility: visible;
+    display: flex;
   }
 
-  .name .nav{
+  .mobile span:first-child{
+    font-weight: 700;
+  }
+
+  .deskheader{
     display: none;
     visibility: hidden;
   }
-
-
-
 }
 
 /*Banner*/
@@ -143,6 +144,30 @@ button{
 
 button h3{
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width:550px){
+
+  .banner{
+    display: block;
+  }
+
+  .bannerimg{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0rem;
+  }
+
+  .bannerimg img{
+    padding: 0rem;
+    width: 100%;
+  }
+
+  .bannerheadings{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
 }
 
 /*Info Banner*/
