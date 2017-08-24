@@ -124,7 +124,6 @@ header div{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /*padding: 2rem;*/
 }
 
 .bannerheadings div:nth-child(1n+1){
@@ -139,11 +138,12 @@ header div{
 button{
   background-color: rgb(78, 82, 87);
   color: white;
-  padding: 0.5rem 0rem 0.5rem 0rem;
+  width: 90%;
 }
 
 button h3{
   font-size: 1.2rem;
+  padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 @media only screen and (max-width:550px){
@@ -165,11 +165,24 @@ button h3{
 
   .bannerheadings{
     width: 100%;
+    padding: 0rem;
+  }
+
+  .bannerheadings div:first-child{
     padding: 2rem 1rem;
   }
 
+  .bannerheadings div:nth-child(0n+2){
+    padding: 0rem 1rem 1.5rem 1rem;
+  }
+
+  .bannerheadings div:last-child{
+    padding: 0rem 1rem 2rem 1rem;
+  }
+
   button{
-    width: 90%;
+    width: 97%;
+    background-color: grey;
   }
 
 }
